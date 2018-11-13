@@ -1,0 +1,109 @@
+{"extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "jasmine": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "classes": true,
+    "jsx": true
+  },
+  // Map from global var to bool specifying if it can be redefined
+  "globals": {
+    "__BUNDLE_START_TIME__": false,
+    "__DEV__": true,
+    "__dirname": false,
+    "__filename": false,
+    "__fbBatchedBridgeConfig": false,
+    "alert": false,
+    "cancelAnimationFrame": false,
+    "clearImmediate": true,
+    "clearInterval": false,
+    "clearTimeout": false,
+    "console": false,
+    "document": false,
+    "escape": false,
+    "exports": false,
+    "global": false,
+    "jest": false,
+    "pit": false,
+    "Map": true,
+    "module": false,
+    "navigator": false,
+    "process": false,
+    "Promise": false,
+    "requestAnimationFrame": true,
+    "require": false,
+    "Set": true,
+    "setImmediate": true,
+    "setInterval": false,
+    "setTimeout": false,
+    "window": false,
+    "FormData": true,
+    "XMLHttpRequest": false,
+
+    // Flow "known-globals" annotations:
+    "ReactElement": false,
+    "ReactClass": false,
+    "Class": false
+  },
+  "plugins": [
+    "import",
+    "react",
+    "jsx-a11y",
+    "prettier"
+  ],
+  "rules": {
+
+    // previous rules
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "global-require": "off",
+    "no-console": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/img-has-alt": "off",
+
+
+    // added by young
+    "comma-dangle": "off",
+    "react/prop-types": "off",
+    "no-use-before-define": "off",
+    "radix": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "react/require-default-props": "off",
+    "react/forbid-prop-types": "off",
+    "prefer-destructuring": "off",
+    "no-underscore-dangle": "off",
+    "no-bitwise":"off",
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "react/jsx-indent": "off",
+    "react/jsx-indent-props": "off",
+    "indent-legacy": "off",
+    "object-shorthand": "off",
+    "arrow-parens": "off",
+    "no-trailing-spaces": "off",
+    "max-len": "off",
+    "import/first": "off",
+    "linebreak-style": "off"
+  }
+}

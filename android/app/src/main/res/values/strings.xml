@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KW DATA</string>
+    <string name="android_auto_update_download_progress">正在下载:%1$d%%</string>
+    <string name="android_auto_update_dialog_title">提示</string>
+    <string name="android_auto_update_dialog_btn_download">确定</string>
+    <string name="android_auto_update_dialog_btn_cancel">取消</string>
+</resources>

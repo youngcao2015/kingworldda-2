@@ -1,0 +1,132 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - DoubleConversion (1.1.6)
+  - Folly (2016.10.31.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - MBProgressHUD (1.0.0)
+  - React (0.57.0):
+    - React/Core (= 0.57.0)
+  - react-native-splash-screen (3.1.1):
+    - React
+  - React/Core (0.57.0):
+    - yoga (= 0.57.0.React)
+  - React/CxxBridge (0.57.0):
+    - Folly (= 2016.10.31.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.57.0):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.10.31.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.57.0):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.57.0)
+  - React/jschelpers (0.57.0):
+    - Folly (= 2016.10.31.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.57.0)
+  - React/PrivateDatabase (0.57.0)
+  - React/RCTActionSheet (0.57.0):
+    - React/Core
+  - React/RCTAnimation (0.57.0):
+    - React/Core
+  - React/RCTBlob (0.57.0):
+    - React/Core
+  - React/RCTGeolocation (0.57.0):
+    - React/Core
+  - React/RCTImage (0.57.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.57.0):
+    - React/Core
+  - React/RCTNetwork (0.57.0):
+    - React/Core
+  - React/RCTText (0.57.0):
+    - React/Core
+  - React/RCTVibration (0.57.0):
+    - React/Core
+  - React/RCTWebSocket (0.57.0):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RNDeviceInfo (0.21.5):
+    - React
+  - RNKeychain (3.0.0):
+    - React
+  - SwiftyJSON (4.0.0)
+  - yoga (0.57.0.React)
+
+DEPENDENCIES:
+  - Charts (= 3.1.1)
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - MBProgressHUD (~> 1.0.0)
+  - react-native-splash-screen (from `../node_modules/react-native-splash-screen`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
+  - RNKeychain (from `../node_modules/react-native-keychain`)
+  - SwiftyJSON (= 4.0.0)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - Charts
+    - MBProgressHUD
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-splash-screen:
+    :path: "../node_modules/react-native-splash-screen"
+  RNDeviceInfo:
+    :path: "../node_modules/react-native-device-info"
+  RNKeychain:
+    :path: "../node_modules/react-native-keychain"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
+  glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  react-native-splash-screen: 8e3f866dc79bfe533baeffd0a38c33f7a7eae7f8
+  RNDeviceInfo: 568c5641057313b4912d08a7742ff0b2f753ed5c
+  RNKeychain: 627c6095cef215dd3d9804a9a9cf45ab96aa3997
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 8081b8e3ee3f6354b3d0be3ff0c9b69a5871f732
+
+COCOAPODS: 1.5.3
